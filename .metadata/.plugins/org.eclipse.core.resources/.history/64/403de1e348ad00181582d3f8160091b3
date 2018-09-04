@@ -1,0 +1,7 @@
+
+public class Totality {
+	public int sum(int[] a, String stype) {
+        // you add code here
+        return 0;
+    }
+}

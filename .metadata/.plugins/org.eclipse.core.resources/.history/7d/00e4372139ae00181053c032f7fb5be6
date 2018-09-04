@@ -1,0 +1,28 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class SandwichBar
+{
+    public static int whichOrder(String[] available, String[] orders){
+    	
+    	List<String> available_list = Arrays.asList(available);
+    	for (int i = 0; i < orders.length;) {
+    		String[] keys = orders[i].split(" ");
+    		
+    		for (int j = 0; j < keys.length; j++) {
+    			if (available_list.contains(keys[j]) == false) {
+    				continue;
+    			}
+    		}
+    		return i;
+    	}
+    	return -1;
+    }
+    
+    public static void main(String[] args) {
+    	String[] s1 = { "cheese", "mustard", "lettuce" };
+    	String[] s2 = { "cheese ham", "cheese mustard lettuce", "ketchup", "beer" };
+    	int res = whichOrder(s1, s2);
+    	System.out.println(res);
+    }
+}

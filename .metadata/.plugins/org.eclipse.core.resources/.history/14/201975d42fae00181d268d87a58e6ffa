@@ -1,0 +1,21 @@
+public class CirclesCountry {
+    public static void main(String[] args){
+        System.out.println("Hello World!");
+    }
+}
+/*public class CirclesCountry {
+	
+	public int border_detect(int cx, int cy, int cr, int px, int py ) {
+		cx = (double)cx;
+		cy = (double)cy;
+		
+		return 
+	}
+	
+    public int leastBorders(int[] x, int[] y, int[] r, int x1, int y1, int x2, int y2) {
+		int sum = 0;
+		
+		return sum;
+    }
+ }
+*/
