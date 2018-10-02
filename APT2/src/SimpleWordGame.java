@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class SimpleWordGame {
     public int points(String[] player, String[] dictionary) {
         int scr = 0;
-        ArrayList<String> assigned = new ArrayList();
+        ArrayList<String> assigned = new ArrayList<String>();
         ArrayList<String> dList = new ArrayList<String>(Arrays.asList(dictionary));
         
         for (String i : player) {
