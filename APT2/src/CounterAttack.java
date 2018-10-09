@@ -5,7 +5,7 @@ public class CounterAttack {
         String[] sep = str.split(" ");
     	int[] sums = new int[words.length];
     	
-    	HashMap<String, Integer> map = new HashMap();
+    	HashMap<String, Integer> map = new HashMap<String, Integer>();
     	
     	for (String i : words) {
     		map.put(i, 0);

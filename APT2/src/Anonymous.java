@@ -4,7 +4,7 @@ import java.util.*;
 public class Anonymous {
 	
 	private HashMap<Character, Integer> convert_to_charmap(String str) {
-		HashMap<Character, Integer> map = new HashMap();
+		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 		char[] chars = str.toCharArray();
 		for (char i : chars) {
 			if (i != ' ') {
@@ -23,7 +23,6 @@ public class Anonymous {
 		
 		int cnt = 0;
 		
-		ArrayList<HashMap<Character, Integer>> message_maps = new ArrayList<HashMap<Character, Integer>>();
 		String concat_line = headlines[0];
 		if (headlines.length > 1) {
 			for (int i = 1; i < headlines.length; i++) {
