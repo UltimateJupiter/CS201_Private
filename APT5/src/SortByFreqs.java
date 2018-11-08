@@ -15,7 +15,6 @@ public class SortByFreqs {
 			if (map.get(o1) != map.get(o2)) return map.get(o2) - map.get(o1);
 			return o1.compareTo(o2);
 		}
-		
 	}
 	
     public String[] sort(String[] data) {
