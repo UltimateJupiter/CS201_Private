@@ -120,8 +120,8 @@ public class AuntUncle {
     			if (set.contains(MOM)) set.remove(MOM);
     		}
     	}
-    	//if (set.contains(mom.wo)) set.remove(mom.wo);
-    	//if (set.contains(dad.wo)) set.remove(dad.wo);
+    	// if (set.contains(mom.wo)) set.remove(mom.wo);
+    	// if (set.contains(dad.wo)) set.remove(dad.wo);
     	
     	String[] ret = new String[set.size()];
     	ret = set.toArray(ret);
