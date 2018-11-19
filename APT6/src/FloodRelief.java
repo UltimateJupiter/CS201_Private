@@ -59,8 +59,8 @@ public class FloodRelief {
         System.out.print("\n");
         for (int[] row: board) {
             for (int k: row) {
-                if (k == 0) System.out.print("-");
-                else System.out.print("*");
+                if (k == 0) System.out.print(" ");
+                else System.out.print("#");
             }
             System.out.print("\n");
         }
