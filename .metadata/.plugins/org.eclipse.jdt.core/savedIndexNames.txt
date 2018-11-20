@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/Users/jupiter/DUKE/C18_Fall/CS_201/Codes/.metadata/.plugins/org.eclipse.jdt.core
-1169081930.index
-3701970928.index
-3586623428.index
