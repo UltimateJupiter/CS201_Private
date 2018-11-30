@@ -8,7 +8,7 @@ public class Internet {
 	
 	public int groupCount(Map<String, ArrayList<String>> map) {
 		List<ArrayList<String>> total = new ArrayList<ArrayList<String>>();
-		List<String> keys = new ArrayList(map.keySet());
+		List<String> keys = new ArrayList<String>(map.keySet());
 		Collections.sort(keys);
 		
 		while (keys.size() > 0) {
