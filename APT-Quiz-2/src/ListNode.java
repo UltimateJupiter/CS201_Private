@@ -6,6 +6,6 @@ public class ListNode {
     }
     ListNode(int x, ListNode node){
         info = x;
-	next = node;
+	  next = node;
     }
 }
